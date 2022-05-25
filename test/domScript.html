@@ -30,10 +30,14 @@
         // document.getElementById();
         // document.getElementsByClassName();
         
-        const boxEl_2 = document.querySelector('.box:nth-child(2)');
-        console.log(boxEl_2);
+        // const boxEl_2 = document.querySelector('.box:nth-child(2)');
+        // console.log(boxEl_2);
         
-        
+        const boxAll = document.querySelectorAll('.box');
+        // =>여러 클래스를 선택해올수 있음
+        // =>단, 선택할때 배열 형태로 반환 시켜줌
+        // =>원하는 선택자를 선택하고 싶을땐 배열 형식으로 선택해주면 됨
+        console.log(boxAll[2]);
 
 
     </script>
